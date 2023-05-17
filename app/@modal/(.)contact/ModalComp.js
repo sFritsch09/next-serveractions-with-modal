@@ -1,6 +1,5 @@
 'use client';
-import { CustomModal } from '@/app/about/about.styles';
-import Image from 'next/image';
+import { CustomModal } from '@/app/contact/contact.styles';
 import { useRouter } from 'next/navigation';
 
 export default function ModalComp() {
@@ -21,15 +20,9 @@ export default function ModalComp() {
 					</div>
 					<div className="body">
 						Kontaktformular
-						<div className="btn-wrapper">
-							
-								Send
-						
-						</div>
+						<div className="btn-wrapper">Send</div>
 					</div>
-					<div className="status-bar">
-						<Image alt="Logo" src="/techChase.svg" fill priority />
-					</div>
+					<div className="status-bar">Statusbar</div>
 				</div>
 			</CustomModal>
 		</div>
